@@ -12,6 +12,9 @@
             "linux": {
                 "command": "${workspaceFolder}/engine/build.sh"
             },
+            "osx": {
+                "command": "${workspaceFolder}/engine/build.sh"
+            },
             "options": {
                 "cwd": "${workspaceFolder}/engine"
             },
@@ -30,6 +33,9 @@
             "linux": {
                 "command": "${workspaceFolder}/testbed/build.sh"
             },
+            "osx": {
+                "command": "${workspaceFolder}/engine/build.sh"
+            },
             "options": {
                 "cwd": "${workspaceFolder}/testbed"
             },
@@ -46,6 +52,9 @@
             },
             "linux": {
                 "command": "${workspaceFolder}/build-all.sh",
+            },
+            "osx": {
+                "command": "${workspaceFolder}/build-all.sh"
             },
             "options": {
                 "cwd": "${workspaceFolder}"

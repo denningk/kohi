@@ -24,6 +24,16 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/bin/",
             "environment": []
+        },
+        {
+            "name": "(Mac) Launch",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/testbed",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/bin/",
+            "environment": []
         }
     ]
 }
